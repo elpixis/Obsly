@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 60%;
+    background-color: #202020;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.i-fondo {
+    background-image: url(/img/background.jpg);
+    background-size: cover;
+}
+
+.i-logo {
+    max-width: 500px;
+    margin: 50px;
+}
+.c-texto {
+    padding: 0px 350px;
+}
+.botones {
+    background-color: #171717;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin-bottom: 50px;
+}
+
+.botones a {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.botones a:hover{
+    color: #fb9000;
+    font-weight: bold;
+}
+
+.titulo {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.separador {
+    background-color: #FB9000;
+    height: 2px;
+    width: 25%;
+    margin: 50px auto 50px;
+}
+
+.productos {
+    text-align: center;
+}
+
+.caja {
+    background-color: #171717;;
+    margin: 2rem;
+    padding: 2rem;
+    display: inline-block;
+    border-radius: 5%;
+    width: 20%;
+}
+
+.f-producto {
+    background-color: #1f1f1f;
+    height: 175px;
+    padding: 25px;
+    border-radius: 5%;
+    margin-bottom: 25px;
+}
+
+.i-producto {
+    width: 75%;
+}
+
+.comprar-boton {
+    background-color: #313131;
+    height: 20px;
+    width: 75%;
+    border-radius: 10px;
+    margin: 15px auto;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.comprar-boton:hover {
+    background-color: #FB9000;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #171717;
+    height: 50px;
+    margin-top: 50px;
+    padding-top: 35px;
+    font-size: 20px;
+}
