@@ -1,0 +1,19 @@
+body {
+    background-color: #191516;
+}
+
+.container p {
+    color: #FFFFFF;
+}
+
+.container h2 {
+    color: #FAC81A;
+}
+
+.card {
+    background-color: #201D1E;
+}
+
+.card-title {
+    color: #FAC81A;;
+}
