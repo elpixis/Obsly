@@ -5,6 +5,9 @@ body {
     background-color: #191516;
 }
 
+a {
+    text-decoration: none;
+}
 h2 {
     font-family: 'Montserrat', sans-serif;
 }
@@ -13,7 +16,7 @@ h2 {
     font-family: 'Open Sans', sans-serif;
 }
 
-.container h2 {
+.h1,h2,h3,h4,h5,h6 {
     color: #FAC81A;
 }
 
@@ -23,4 +26,15 @@ h2 {
 
 .card-title {
     color: #FAC81A;;
+}
+
+footer {
+    color: white;
+    line-height: 5px;
+}
+
+.fa-brands {
+    color: #FAC81A;
+    font-size: 25px;
+    margin: 10px;
 }
