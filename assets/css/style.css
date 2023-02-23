@@ -19,6 +19,16 @@ p {
     font-family: 'Montserrat', sans-serif;
 }
 
+.dropdown-item.active, .dropdown-menu-dark .dropdown-item:active {
+    color: #fff;
+    background-color: #FAC81A !important;
+}
+
+#filter #openworld:checked ~ #services .openworld {
+    display: none;
+}
+
+
 .card {
     background-color: #201D1E;
 }
