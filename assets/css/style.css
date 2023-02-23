@@ -24,8 +24,12 @@ p {
     background-color: #FAC81A !important;
 }
 
-#filter #openworld:checked ~ #services .openworld {
-    display: none;
+#openworld:checked ~ #elementos .strategy {
+    display: none !important;
+}
+
+#elementos {
+    color: #e9140d;
 }
 
 
