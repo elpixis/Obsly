@@ -15,8 +15,8 @@ p {
 }
 
 .h1,h2,h3,h4,h5,h6 {
+    color: #FAC81A !important;
     font-family: 'Montserrat', sans-serif;
-    color: #FAC81A;
 }
 
 .card {
@@ -36,4 +36,20 @@ footer {
     color: #FAC81A;
     font-size: 25px;
     margin: 10px;
+}
+
+.fa-brands:hover {
+    transform: scale(1.25);
+    transition: 0.5s;
+}
+.fa-facebook:hover {
+    color: #1b76e6;
+}
+
+.fa-twitter:hover {
+    color: #00acee;
+}
+
+.fa-youtube:hover {
+    color: #e9140d;
 }

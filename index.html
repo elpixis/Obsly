@@ -26,9 +26,16 @@
                         <li class="nav-item">
                             <a class="nav-link active" href="#">Inicio</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/services.html">Servicios</a>
-                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Servicios
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="servicios/juegos.html">Juegos</a></li>
+                                <li><a class="dropdown-item" href="servicios/dedicados.html">Dedicados</a></li>
+                                <li><a class="dropdown-item" href="servicios/compartidos.html">Compartidos</a></li>
+                            </ul>
+                          </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/contact.html">Contactar</a>
                         </li>
@@ -102,11 +109,11 @@
         </section>
 
         <!-- NUESTROS SERVICIOS -->
-        <section class="container my-5">
-            <h2 class="text-center my-5">NUESTROS SERVICIOS</h2>
+        <section class="container text-center my-5">
+            <h2 class="my-5">NUESTROS SERVICIOS</h2>
             <div class="row">
-                <div class="col-md-4 col-sm-12 mb-5">
-                    <div class="card text-center" style="width: 18rem;">
+                <div class="col-lg-4 col-sm-12 mb-5 d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
                         <img src="assets/img/minecraft.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">Minecraft</h5>
@@ -115,8 +122,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-12  mb-5">
-                    <div class="card text-center" style="width: 18rem;">
+                <div class="col-lg-4 col-sm-12 mb-5 d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
                         <img src="assets/img/gtav.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">GTA V</h5>
@@ -125,8 +132,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-12  mb-5">
-                    <div class="card text-center" style="width: 18rem;">
+                <div class="col-lg-4 col-sm-12 mb-5 d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
                         <img src="assets/img/dota2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">Dota 2</h5>
@@ -151,7 +158,8 @@
                 </div>
             </div>
         </section>
-
+    
+    </main>
         <footer>
             <div class="container-fluid text-center my-3">
                 <h5>OBSLY.HOST</h5>
@@ -168,7 +176,6 @@
                 </a>
             </div>
         </footer>
-    </main>
 
     <script src="assets/css/bootstrap.js"></script>
 </body>
